@@ -4,17 +4,19 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  
 }
 
 .menu, .quiz, .score{
   width: 500px;
   height: 500px;
-  background-color: rgb(177, 235, 83);
+  background-color: rgb(110, 187, 174);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 10px 10px #888888;
 }
 
 .menu button, .quiz button, .score button{
@@ -25,6 +27,8 @@
   border-radius: 5px;
   font-size: 20px;
   cursor: pointer;
+  background-color: darkcyan;
+  /*box-shadow: 2px 5px #888888;*/
 }
 
 button:active{
